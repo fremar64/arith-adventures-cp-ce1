@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import MarbleScene from './MarbleScene';
 import SpeechBubble from './SpeechBubble';
@@ -10,7 +9,7 @@ import { OrbitControls, Stage } from '@react-three/drei';
 import TeacherModel from './TeacherModel';
 
 // Game states
-enum GameState {
+export enum GameState {
   Introduction,
   CountingRed,
   CountingBlue,
