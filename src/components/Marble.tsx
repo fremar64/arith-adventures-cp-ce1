@@ -36,7 +36,7 @@ const Marble: React.FC<MarbleProps> = ({ position, color, visible }) => {
     >
       <sphereGeometry args={[0.25, 32, 32]} />
       <meshStandardMaterial 
-        color={marbleColor}
+        color={marbleColor as THREE.ColorRepresentation}
         roughness={0.1}
         metalness={0.3}
       />

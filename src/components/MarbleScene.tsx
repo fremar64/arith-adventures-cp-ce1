@@ -1,8 +1,8 @@
-
 import React, { useState, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Stage, PerspectiveCamera } from '@react-three/drei';
 import Marble from './Marble';
+import * as THREE from 'three';
 
 interface MarbleSceneProps {
   redMarbles: number;
